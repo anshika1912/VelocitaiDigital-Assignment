@@ -13,8 +13,7 @@
         <title>CART</title>
     </head>
     <body>
-        
-    <center><h1>THANK YOU FOR PLACING THE ORDER!!!!!</h1></center>
+       
     <%
    
         try
