@@ -14,8 +14,7 @@
     </head>
     <body>
     <%
-        try
-        {
+ 
         String name=request.getParameter("name");
         String email=request.getParameter("email");
         String address=request.getParameter("address");
@@ -44,17 +43,11 @@
         if(i1>0)
         {
             %>
-            <jsp:forward page="user.jsp"></jsp:forward>
+            <jsp:forward page="user.html"></jsp:forward>
             <%
         }
-        }
-        catch(Exception e)
-        {
-            out.println("SOMETHING IS WRONG!");
-            
         
-        }
-        }
+        
     %>
     </body>
 </html>
