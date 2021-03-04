@@ -48,7 +48,7 @@
        if(i1>0)
        {
             %>
-            <jsp:include page="cartafterbuy.jsp"></jsp:include>
+            <jsp:include page="thankyou.html"></jsp:include>
             <%
         }
        %>
