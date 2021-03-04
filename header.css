@@ -17,11 +17,3 @@ header{
 ul li{
     list-style-type: none;
 }
-footer{
-    clear: both;
-    background: #322a2a;
-    margin-top: 2px;
-    text-align:center;
-    padding:5px;
-    color:#fff;
-}
