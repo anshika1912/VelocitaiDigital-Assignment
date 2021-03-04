@@ -1,0 +1,27 @@
+body{
+    background:#DCDCDC;
+    margin:0px;
+    padding: 0px;
+    
+}
+a{
+    color:#fff;
+}
+header{
+    background: #fff;
+    height: 90px;
+}
+#left-nav{
+    float:left;
+}
+ul li{
+    list-style-type: none;
+}
+footer{
+    clear: both;
+    background: #322a2a;
+    margin-top: 2px;
+    text-align:center;
+    padding:5px;
+    color:#fff;
+}
