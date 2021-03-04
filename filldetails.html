@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ENTER YOUR DETAILS!!</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="header.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+        <ul id="left-nav">
+        <li><img src="logo.svg" alt="logo"></li>
+        </ul>
+     
+        </header>
+  
+    <center>
+        
+    <form action="filldetails.jsp" method="post">
+    <br>
+    <h1>PLEASE FILL YOUR DETAILS!</h1>
+    <br>
+    <h2><b>Name<input type="text" name="name"><br>
+    <br>    
+    <b>Product_id<input type="text" name="id"><br>
+    <br>
+    <b>E-Mail<input type="text" name="email"><br>
+    <br>
+    <b>Address<input type="text" name="address"><br>
+    <br>
+    <b>City<input type="text" name="city"><br>
+    <br>
+    <b>State<input type="text" name="state"><br>
+    <br>
+    <b>Mobile<input type="text" name="mobile"><br>
+    <br>
+    Select a Payment method
+    <br>
+    <input type="radio" id="cash_on_delivery" name="payment_method" value="Cash on delivery">
+    <label for="cash_on_delivery">Cash on delivery</label>
+    <br>
+    <b><b><input type="radio" id="online_payment" name="payment_method" value="online_method">
+    <label for="online_payment">Online_payment</label><br>
+    <br>
+    <b>Transaction_ID<input type="text" name="transaction_id"><br>
+      (*enter if selected online payment otherwise enter nil)<br>
+    <br>
+
+    <input type="submit" value="Done">
+            
+    </h2>
+    </form>
+    </center>
+    <footer>
+    Velocitai Digital
+    </footer>  
+    </body>
+</html>
